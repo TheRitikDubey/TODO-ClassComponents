@@ -1,0 +1,107 @@
+body {
+  background-color: #82589f;
+  color: rgb(243, 243, 243);
+  font-size: larger;
+  font-weight: bolder;
+}
+.App {
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  background-color: black;
+  color: #dfe6e9;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ip {
+  text-align: center;
+}
+textarea {
+  font-size: larger;
+  font-weight: bolder;
+}
+.subbtn {
+  margin: 12px;
+  margin-left: 46%;
+  padding: 5px;
+  background-color: #fff200;
+  font-weight: bold;
+  font-size: larger;
+  border-radius: 12px;
+}
+.subbtn:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.del,
+.upd {
+  margin: 10px;
+  padding: 4px;
+  background-color: rgb(7, 7, 7);
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 10px;
+}
+.del {
+  margin-left: 10%;
+  font-size: large;
+  border-radius: 10px;
+}
+.del:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.upd:hover {
+  background-color: green;
+  cursor: pointer;
+}
+ul {
+  display: table;
+  margin: 0 auto;
+  list-style: none;
+}
+.num {
+  box-sizing: border-box;
+  width: 50%;
+  border: 2px solid rgb(187, 69, 14);
+  background-color: #ff5252;
+  border-radius: 50px;
+  box-shadow: 12px 10px 12px black;
+}
